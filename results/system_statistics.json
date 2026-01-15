@@ -1,0 +1,159 @@
+{
+  "timestamp": 1768472663.9127114,
+  "edge_nodes": [
+    {
+      "node_id": "edge-0",
+      "region": "region-0",
+      "processed_requests": 0,
+      "failed_requests": 0,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "cache_hit_rate_percent": 0,
+      "cache_size": 0,
+      "queue_size": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.733333333333334,
+      "average_memory_percent": 55.93333333333334
+    },
+    {
+      "node_id": "edge-1",
+      "region": "region-1",
+      "processed_requests": 0,
+      "failed_requests": 0,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "cache_hit_rate_percent": 0,
+      "cache_size": 0,
+      "queue_size": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.8,
+      "average_memory_percent": 55.93333333333334
+    },
+    {
+      "node_id": "edge-2",
+      "region": "region-2",
+      "processed_requests": 0,
+      "failed_requests": 0,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "cache_hit_rate_percent": 0,
+      "cache_size": 0,
+      "queue_size": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.599999999999998,
+      "average_memory_percent": 55.93333333333334
+    }
+  ],
+  "core_nodes": [
+    {
+      "node_id": "core-0",
+      "region": "region-0",
+      "processed_requests": 0,
+      "routed_to_cloud": 0,
+      "routed_to_edge": 0,
+      "active_sessions": 0,
+      "total_sessions": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.533333333333335,
+      "average_memory_percent": 55.93333333333334,
+      "load_distribution": {}
+    },
+    {
+      "node_id": "core-1",
+      "region": "region-1",
+      "processed_requests": 0,
+      "routed_to_cloud": 0,
+      "routed_to_edge": 0,
+      "active_sessions": 0,
+      "total_sessions": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.400000000000002,
+      "average_memory_percent": 55.93333333333334,
+      "load_distribution": {}
+    }
+  ],
+  "cloud_nodes": [
+    {
+      "node_id": "cloud-0",
+      "data_center": "dc-0",
+      "processed_requests": 0,
+      "analytics_jobs": 0,
+      "ml_inferences": 0,
+      "storage_size": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.2,
+      "average_memory_percent": 55.93333333333334
+    },
+    {
+      "node_id": "cloud-1",
+      "data_center": "dc-1",
+      "processed_requests": 0,
+      "analytics_jobs": 0,
+      "ml_inferences": 0,
+      "storage_size": 0,
+      "average_latency_ms": 0,
+      "average_cpu_percent": 17.033333333333335,
+      "average_memory_percent": 55.93333333333334
+    }
+  ],
+  "consensus": {
+    "cluster_state": [
+      {
+        "node_id": "node-0",
+        "state": "leader",
+        "term": 1,
+        "log_length": 0,
+        "commit_index": 0,
+        "is_leader": true
+      },
+      {
+        "node_id": "node-1",
+        "state": "leader",
+        "term": 1,
+        "log_length": 0,
+        "commit_index": 0,
+        "is_leader": true
+      },
+      {
+        "node_id": "node-2",
+        "state": "leader",
+        "term": 1,
+        "log_length": 0,
+        "commit_index": 0,
+        "is_leader": true
+      },
+      {
+        "node_id": "node-3",
+        "state": "leader",
+        "term": 1,
+        "log_length": 0,
+        "commit_index": 0,
+        "is_leader": true
+      },
+      {
+        "node_id": "node-4",
+        "state": "leader",
+        "term": 1,
+        "log_length": 0,
+        "commit_index": 0,
+        "is_leader": true
+      }
+    ]
+  },
+  "transactions": {
+    "total_transactions": 100,
+    "committed": 80,
+    "aborted": 20,
+    "commit_rate": 80.0,
+    "average_latency_ms": 101.7886757850647,
+    "active_transactions": 100
+  },
+  "replication": {
+    "total_data_keys": 10,
+    "total_replicas": 30,
+    "active_replicas": 30,
+    "failed_replicas": 0,
+    "replication_factor": 3,
+    "availability_percent": 100.0
+  }
+}

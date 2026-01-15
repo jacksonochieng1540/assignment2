@@ -1,0 +1,91 @@
+{
+  "latency_tests": {
+    "edge-perf": {
+      "node_type": "EdgeNode",
+      "min_latency_ms": 10.417938232421875,
+      "max_latency_ms": 49.81088638305664,
+      "avg_latency_ms": 31.59468173980713,
+      "median_latency_ms": 32.51659870147705,
+      "p95_latency_ms": 46.996414661407464,
+      "p99_latency_ms": 49.35171842575073,
+      "std_dev_ms": 11.512441970361822
+    },
+    "core-perf": {
+      "node_type": "CoreNode",
+      "min_latency_ms": 20.11704444885254,
+      "max_latency_ms": 78.64522933959961,
+      "avg_latency_ms": 46.79608345031738,
+      "median_latency_ms": 46.431660652160645,
+      "p95_latency_ms": 76.46658420562744,
+      "p99_latency_ms": 78.24496984481812,
+      "std_dev_ms": 18.7062734810015
+    },
+    "cloud-perf": {
+      "node_type": "CloudNode",
+      "min_latency_ms": 102.01287269592285,
+      "max_latency_ms": 490.90051651000977,
+      "avg_latency_ms": 318.00068219502765,
+      "median_latency_ms": 318.5080289840698,
+      "p95_latency_ms": 461.9029879570007,
+      "p99_latency_ms": 483.9598274230957,
+      "std_dev_ms": 97.51787502255635
+    }
+  },
+  "throughput_tests": {
+    "edge-perf": {
+      "node_type": "EdgeNode",
+      "duration_seconds": 3.035166025161743,
+      "total_requests": 396,
+      "errors": 0,
+      "throughput_rps": 130.47062227144468,
+      "error_rate_percent": 0.0
+    },
+    "core-perf": {
+      "node_type": "CoreNode",
+      "duration_seconds": 3.031965732574463,
+      "total_requests": 245,
+      "errors": 0,
+      "throughput_rps": 80.80566259961283,
+      "error_rate_percent": 0.0
+    },
+    "cloud-perf": {
+      "node_type": "CloudNode",
+      "duration_seconds": 3.12093448638916,
+      "total_requests": 122,
+      "errors": 0,
+      "throughput_rps": 39.090855810033624,
+      "error_rate_percent": 0.0
+    }
+  },
+  "transaction_tests": {
+    "2pc": {
+      "latencies": [
+        76.46346092224121,
+        77.50296592712402,
+        76.62105560302734,
+        76.73239707946777,
+        76.55549049377441
+      ],
+      "success": 3,
+      "failed": 2,
+      "avg_latency_ms": 76.77507400512695,
+      "p95_latency_ms": 77.34885215759277,
+      "success_rate": 60.0
+    },
+    "3pc": {
+      "latencies": [
+        127.90179252624512,
+        127.52223014831543,
+        127.47859954833984,
+        127.57444381713867,
+        127.09784507751465
+      ],
+      "success": 5,
+      "failed": 0,
+      "avg_latency_ms": 127.51498222351074,
+      "p95_latency_ms": 127.83632278442383,
+      "success_rate": 100.0
+    }
+  },
+  "fault_tolerance_tests": {}
+}

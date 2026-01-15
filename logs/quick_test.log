@@ -1,0 +1,38 @@
+INFO:edge.services.edge_node:Edge node edge-quick initialized in region region-0
+INFO:core.services.core_node:Core node core-quick initialized in region region-0
+INFO:cloud.services.cloud_node:Cloud node cloud-quick initialized in data center dc-0
+INFO:edge.services.edge_node:Worker 0 started on edge node edge-quick
+INFO:edge.services.edge_node:Worker 1 started on edge node edge-quick
+INFO:edge.services.edge_node:Edge node edge-quick started with 2 workers
+INFO:core.services.core_node:Worker 0 started on core node core-quick
+INFO:core.services.core_node:Worker 1 started on core node core-quick
+INFO:core.services.core_node:Worker 2 started on core node core-quick
+INFO:core.services.core_node:Worker 3 started on core node core-quick
+INFO:core.services.core_node:Core node core-quick started with 4 workers
+INFO:cloud.services.cloud_node:Worker 0 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 1 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 2 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 3 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 4 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 5 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 6 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Worker 7 started on cloud node cloud-quick
+INFO:cloud.services.cloud_node:Cloud node cloud-quick started with 8 workers
+INFO:edge.services.edge_node:Edge node edge-quick stopped
+INFO:core.services.core_node:Core node core-quick stopped
+INFO:cloud.services.cloud_node:Cloud node cloud-quick stopped
+Creating nodes...
+Starting nodes...
+Processing test requests...
+
+Collecting statistics...
+
+Edge Node Stats: {'node_id': 'edge-quick', 'region': 'region-0', 'processed_requests': 622, 'failed_requests': 0, 'cache_hits': 0, 'cache_misses': 624, 'cache_hit_rate_percent': 0.0, 'cache_size': 0, 'queue_size': 50, 'average_latency_ms': 30.88901932216534, 'average_cpu_percent': 25.2, 'average_memory_percent': 56.55}
+
+Core Node Stats: {'node_id': 'core-quick', 'region': 'region-0', 'processed_requests': 50, 'routed_to_cloud': 0, 'routed_to_edge': 0, 'active_sessions': 50, 'total_sessions': 50, 'average_latency_ms': 50.34947872161865, 'average_cpu_percent': 25.25, 'average_memory_percent': 56.55, 'load_distribution': {}}
+
+Cloud Node Stats: {'node_id': 'cloud-quick', 'data_center': 'dc-0', 'processed_requests': 50, 'analytics_jobs': 0, 'ml_inferences': 0, 'storage_size': 0, 'average_latency_ms': 96.5806245803833, 'average_cpu_percent': 25.05, 'average_memory_percent': 56.55}
+
+Stopping nodes...
+
+✓ Quick test completed!

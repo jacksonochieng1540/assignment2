@@ -1,0 +1,599 @@
+2026-01-15 13:24:08,820 - __main__ - INFO - Distributed Telecom System initialized
+2026-01-15 13:24:08,820 - __main__ - INFO - Setting up infrastructure...
+2026-01-15 13:24:08,821 - edge.services.edge_node - INFO - Edge node edge-0 initialized in region region-0
+2026-01-15 13:24:08,821 - edge.services.edge_node - INFO - Edge node edge-1 initialized in region region-1
+2026-01-15 13:24:08,821 - edge.services.edge_node - INFO - Edge node edge-2 initialized in region region-2
+2026-01-15 13:24:08,821 - __main__ - INFO - Created 3 edge nodes
+2026-01-15 13:24:08,821 - core.services.core_node - INFO - Core node core-0 initialized in region region-0
+2026-01-15 13:24:08,821 - core.services.core_node - INFO - Core node core-1 initialized in region region-1
+2026-01-15 13:24:08,821 - __main__ - INFO - Created 2 core nodes
+2026-01-15 13:24:08,821 - cloud.services.cloud_node - INFO - Cloud node cloud-0 initialized in data center dc-0
+2026-01-15 13:24:08,821 - cloud.services.cloud_node - INFO - Cloud node cloud-1 initialized in data center dc-1
+2026-01-15 13:24:08,821 - __main__ - INFO - Created 2 cloud nodes
+2026-01-15 13:24:08,821 - __main__ - INFO - Setting up distributed protocols...
+2026-01-15 13:24:08,821 - shared.protocols.consensus - INFO - Consensus node node-0 initialized with peers: ['node-1', 'node-2', 'node-3', 'node-4']
+2026-01-15 13:24:08,821 - shared.protocols.consensus - INFO - Consensus node node-1 initialized with peers: ['node-0', 'node-2', 'node-3', 'node-4']
+2026-01-15 13:24:08,821 - shared.protocols.consensus - INFO - Consensus node node-2 initialized with peers: ['node-0', 'node-1', 'node-3', 'node-4']
+2026-01-15 13:24:08,821 - shared.protocols.consensus - INFO - Consensus node node-3 initialized with peers: ['node-0', 'node-1', 'node-2', 'node-4']
+2026-01-15 13:24:08,821 - shared.protocols.consensus - INFO - Consensus node node-4 initialized with peers: ['node-0', 'node-1', 'node-2', 'node-3']
+2026-01-15 13:24:08,821 - shared.protocols.consensus - INFO - Consensus cluster created with 5 nodes
+2026-01-15 13:24:08,822 - shared.protocols.transactions - INFO - Transaction coordinator coordinator-main initialized
+2026-01-15 13:24:08,822 - shared.protocols.fault_tolerance - INFO - Replication manager initialized with factor 3
+2026-01-15 13:24:08,822 - __main__ - INFO - Distributed protocols initialized
+2026-01-15 13:24:08,822 - __main__ - INFO - Starting distributed system...
+2026-01-15 13:24:08,822 - shared.protocols.consensus - INFO - Node node-0 started
+2026-01-15 13:24:08,823 - shared.protocols.consensus - INFO - Node node-1 started
+2026-01-15 13:24:08,823 - shared.protocols.consensus - INFO - Node node-2 started
+2026-01-15 13:24:08,824 - shared.protocols.consensus - INFO - Node node-3 started
+2026-01-15 13:24:08,824 - shared.protocols.consensus - INFO - Node node-4 started
+2026-01-15 13:24:08,824 - shared.protocols.consensus - INFO - Cluster started
+2026-01-15 13:24:08,825 - edge.services.edge_node - INFO - Worker 0 started on edge node edge-0
+2026-01-15 13:24:08,825 - edge.services.edge_node - INFO - Worker 1 started on edge node edge-0
+2026-01-15 13:24:08,825 - edge.services.edge_node - INFO - Worker 2 started on edge node edge-0
+2026-01-15 13:24:08,825 - edge.services.edge_node - INFO - Worker 3 started on edge node edge-0
+2026-01-15 13:24:08,826 - edge.services.edge_node - INFO - Edge node edge-0 started with 4 workers
+2026-01-15 13:24:08,826 - edge.services.edge_node - INFO - Worker 0 started on edge node edge-1
+2026-01-15 13:24:08,826 - edge.services.edge_node - INFO - Worker 1 started on edge node edge-1
+2026-01-15 13:24:08,827 - edge.services.edge_node - INFO - Worker 2 started on edge node edge-1
+2026-01-15 13:24:08,827 - edge.services.edge_node - INFO - Worker 3 started on edge node edge-1
+2026-01-15 13:24:08,828 - edge.services.edge_node - INFO - Edge node edge-1 started with 4 workers
+2026-01-15 13:24:08,828 - edge.services.edge_node - INFO - Worker 0 started on edge node edge-2
+2026-01-15 13:24:08,829 - edge.services.edge_node - INFO - Worker 1 started on edge node edge-2
+2026-01-15 13:24:08,829 - edge.services.edge_node - INFO - Worker 2 started on edge node edge-2
+2026-01-15 13:24:08,829 - edge.services.edge_node - INFO - Worker 3 started on edge node edge-2
+2026-01-15 13:24:08,830 - edge.services.edge_node - INFO - Edge node edge-2 started with 4 workers
+2026-01-15 13:24:08,830 - core.services.core_node - INFO - Worker 0 started on core node core-0
+2026-01-15 13:24:08,830 - core.services.core_node - INFO - Worker 1 started on core node core-0
+2026-01-15 13:24:08,831 - core.services.core_node - INFO - Worker 2 started on core node core-0
+2026-01-15 13:24:08,832 - core.services.core_node - INFO - Worker 3 started on core node core-0
+2026-01-15 13:24:08,832 - core.services.core_node - INFO - Worker 4 started on core node core-0
+2026-01-15 13:24:08,833 - core.services.core_node - INFO - Worker 5 started on core node core-0
+2026-01-15 13:24:08,833 - core.services.core_node - INFO - Worker 6 started on core node core-0
+2026-01-15 13:24:08,833 - core.services.core_node - INFO - Worker 7 started on core node core-0
+2026-01-15 13:24:08,834 - core.services.core_node - INFO - Core node core-0 started with 8 workers
+2026-01-15 13:24:08,834 - core.services.core_node - INFO - Worker 0 started on core node core-1
+2026-01-15 13:24:08,835 - core.services.core_node - INFO - Worker 1 started on core node core-1
+2026-01-15 13:24:08,835 - core.services.core_node - INFO - Worker 2 started on core node core-1
+2026-01-15 13:24:08,836 - core.services.core_node - INFO - Worker 3 started on core node core-1
+2026-01-15 13:24:08,836 - core.services.core_node - INFO - Worker 4 started on core node core-1
+2026-01-15 13:24:08,836 - core.services.core_node - INFO - Worker 5 started on core node core-1
+2026-01-15 13:24:08,836 - core.services.core_node - INFO - Worker 6 started on core node core-1
+2026-01-15 13:24:08,837 - core.services.core_node - INFO - Worker 7 started on core node core-1
+2026-01-15 13:24:08,838 - core.services.core_node - INFO - Core node core-1 started with 8 workers
+2026-01-15 13:24:08,838 - cloud.services.cloud_node - INFO - Worker 0 started on cloud node cloud-0
+2026-01-15 13:24:08,839 - cloud.services.cloud_node - INFO - Worker 1 started on cloud node cloud-0
+2026-01-15 13:24:08,839 - cloud.services.cloud_node - INFO - Worker 2 started on cloud node cloud-0
+2026-01-15 13:24:08,839 - cloud.services.cloud_node - INFO - Worker 3 started on cloud node cloud-0
+2026-01-15 13:24:08,840 - cloud.services.cloud_node - INFO - Worker 4 started on cloud node cloud-0
+2026-01-15 13:24:08,840 - cloud.services.cloud_node - INFO - Worker 5 started on cloud node cloud-0
+2026-01-15 13:24:08,841 - cloud.services.cloud_node - INFO - Worker 6 started on cloud node cloud-0
+2026-01-15 13:24:08,842 - cloud.services.cloud_node - INFO - Worker 7 started on cloud node cloud-0
+2026-01-15 13:24:08,842 - cloud.services.cloud_node - INFO - Worker 8 started on cloud node cloud-0
+2026-01-15 13:24:08,842 - cloud.services.cloud_node - INFO - Worker 9 started on cloud node cloud-0
+2026-01-15 13:24:08,843 - cloud.services.cloud_node - INFO - Worker 10 started on cloud node cloud-0
+2026-01-15 13:24:08,843 - cloud.services.cloud_node - INFO - Worker 11 started on cloud node cloud-0
+2026-01-15 13:24:08,843 - cloud.services.cloud_node - INFO - Worker 12 started on cloud node cloud-0
+2026-01-15 13:24:08,844 - cloud.services.cloud_node - INFO - Worker 13 started on cloud node cloud-0
+2026-01-15 13:24:08,844 - cloud.services.cloud_node - INFO - Worker 14 started on cloud node cloud-0
+2026-01-15 13:24:08,844 - cloud.services.cloud_node - INFO - Worker 15 started on cloud node cloud-0
+2026-01-15 13:24:08,845 - cloud.services.cloud_node - INFO - Cloud node cloud-0 started with 16 workers
+2026-01-15 13:24:08,846 - cloud.services.cloud_node - INFO - Worker 0 started on cloud node cloud-1
+2026-01-15 13:24:08,846 - cloud.services.cloud_node - INFO - Worker 1 started on cloud node cloud-1
+2026-01-15 13:24:08,846 - cloud.services.cloud_node - INFO - Worker 2 started on cloud node cloud-1
+2026-01-15 13:24:08,847 - cloud.services.cloud_node - INFO - Worker 3 started on cloud node cloud-1
+2026-01-15 13:24:08,847 - cloud.services.cloud_node - INFO - Worker 4 started on cloud node cloud-1
+2026-01-15 13:24:08,848 - cloud.services.cloud_node - INFO - Worker 5 started on cloud node cloud-1
+2026-01-15 13:24:08,848 - cloud.services.cloud_node - INFO - Worker 6 started on cloud node cloud-1
+2026-01-15 13:24:08,848 - cloud.services.cloud_node - INFO - Worker 7 started on cloud node cloud-1
+2026-01-15 13:24:08,849 - cloud.services.cloud_node - INFO - Worker 8 started on cloud node cloud-1
+2026-01-15 13:24:08,849 - cloud.services.cloud_node - INFO - Worker 9 started on cloud node cloud-1
+2026-01-15 13:24:08,849 - cloud.services.cloud_node - INFO - Worker 10 started on cloud node cloud-1
+2026-01-15 13:24:08,850 - cloud.services.cloud_node - INFO - Worker 11 started on cloud node cloud-1
+2026-01-15 13:24:08,850 - cloud.services.cloud_node - INFO - Worker 12 started on cloud node cloud-1
+2026-01-15 13:24:08,850 - cloud.services.cloud_node - INFO - Worker 13 started on cloud node cloud-1
+2026-01-15 13:24:08,851 - cloud.services.cloud_node - INFO - Worker 14 started on cloud node cloud-1
+2026-01-15 13:24:08,851 - cloud.services.cloud_node - INFO - Worker 15 started on cloud node cloud-1
+2026-01-15 13:24:08,851 - cloud.services.cloud_node - INFO - Cloud node cloud-1 started with 16 workers
+2026-01-15 13:24:08,851 - __main__ - INFO - Distributed system started successfully
+2026-01-15 13:24:08,851 - __main__ - INFO - System running. Waiting for initialization...
+2026-01-15 13:24:10,524 - shared.protocols.consensus - INFO - Node node-1 starting election for term 1
+2026-01-15 13:24:10,525 - shared.protocols.consensus - INFO - Node node-1 became leader for term 1
+2026-01-15 13:24:10,525 - shared.protocols.consensus - INFO - Node node-2 starting election for term 1
+2026-01-15 13:24:10,525 - shared.protocols.consensus - INFO - Node node-2 became leader for term 1
+2026-01-15 13:24:10,625 - shared.protocols.consensus - INFO - Node node-3 starting election for term 1
+2026-01-15 13:24:10,626 - shared.protocols.consensus - INFO - Node node-3 became leader for term 1
+2026-01-15 13:24:10,826 - shared.protocols.consensus - INFO - Node node-4 starting election for term 1
+2026-01-15 13:24:10,826 - shared.protocols.consensus - INFO - Node node-4 became leader for term 1
+2026-01-15 13:24:11,626 - shared.protocols.consensus - INFO - Node node-0 starting election for term 1
+2026-01-15 13:24:11,626 - shared.protocols.consensus - INFO - Node node-0 became leader for term 1
+2026-01-15 13:24:13,852 - __main__ - INFO - 
+==================================================
+2026-01-15 13:24:13,852 - __main__ - INFO - RUNNING DISTRIBUTED TRANSACTIONS TEST
+2026-01-15 13:24:13,852 - __main__ - INFO - ==================================================
+2026-01-15 13:24:13,852 - __main__ - INFO - Running 100 transaction tests...
+2026-01-15 13:24:13,853 - shared.protocols.transactions - INFO - Transaction 5cf5ed96-53ef-44b5-aa40-9d02ec824f4c started with 5 participants
+2026-01-15 13:24:13,853 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 5cf5ed96-53ef-44b5-aa40-9d02ec824f4c
+2026-01-15 13:24:13,903 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 5cf5ed96-53ef-44b5-aa40-9d02ec824f4c
+2026-01-15 13:24:13,929 - shared.protocols.transactions - INFO - Transaction 5cf5ed96-53ef-44b5-aa40-9d02ec824f4c committed in 0.076s
+2026-01-15 13:24:13,929 - shared.protocols.transactions - INFO - Transaction abe8c4ef-543f-4143-911b-439103677dfb started with 5 participants
+2026-01-15 13:24:13,929 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction abe8c4ef-543f-4143-911b-439103677dfb
+2026-01-15 13:24:13,981 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction abe8c4ef-543f-4143-911b-439103677dfb
+2026-01-15 13:24:14,031 - shared.protocols.transactions - WARNING - Transaction abe8c4ef-543f-4143-911b-439103677dfb aborting in phase 2
+2026-01-15 13:24:14,057 - shared.protocols.transactions - INFO - Transaction b1793483-ac96-432a-836c-75c3749159ea started with 5 participants
+2026-01-15 13:24:14,057 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction b1793483-ac96-432a-836c-75c3749159ea
+2026-01-15 13:24:14,108 - shared.protocols.transactions - WARNING - Transaction b1793483-ac96-432a-836c-75c3749159ea aborting
+2026-01-15 13:24:14,135 - shared.protocols.transactions - INFO - Transaction a4ebd805-e626-499f-9b75-2f8605725a1b started with 5 participants
+2026-01-15 13:24:14,135 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction a4ebd805-e626-499f-9b75-2f8605725a1b
+2026-01-15 13:24:14,186 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction a4ebd805-e626-499f-9b75-2f8605725a1b
+2026-01-15 13:24:14,237 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction a4ebd805-e626-499f-9b75-2f8605725a1b
+2026-01-15 13:24:14,263 - shared.protocols.transactions - INFO - Transaction a4ebd805-e626-499f-9b75-2f8605725a1b committed in 0.128s
+2026-01-15 13:24:14,263 - shared.protocols.transactions - INFO - Transaction 93270ccb-16cd-4f75-b375-34e0321d7eb1 started with 5 participants
+2026-01-15 13:24:14,264 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 93270ccb-16cd-4f75-b375-34e0321d7eb1
+2026-01-15 13:24:14,314 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 93270ccb-16cd-4f75-b375-34e0321d7eb1
+2026-01-15 13:24:14,341 - shared.protocols.transactions - INFO - Transaction 93270ccb-16cd-4f75-b375-34e0321d7eb1 committed in 0.078s
+2026-01-15 13:24:14,342 - shared.protocols.transactions - INFO - Transaction 7fdad4df-75de-4049-b057-0d3855e17a6f started with 5 participants
+2026-01-15 13:24:14,342 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 7fdad4df-75de-4049-b057-0d3855e17a6f
+2026-01-15 13:24:14,393 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 7fdad4df-75de-4049-b057-0d3855e17a6f
+2026-01-15 13:24:14,444 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 7fdad4df-75de-4049-b057-0d3855e17a6f
+2026-01-15 13:24:14,470 - shared.protocols.transactions - INFO - Transaction 7fdad4df-75de-4049-b057-0d3855e17a6f committed in 0.128s
+2026-01-15 13:24:14,470 - shared.protocols.transactions - INFO - Transaction 8a78d599-30bb-435c-9116-fff4478933a7 started with 5 participants
+2026-01-15 13:24:14,470 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 8a78d599-30bb-435c-9116-fff4478933a7
+2026-01-15 13:24:14,521 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 8a78d599-30bb-435c-9116-fff4478933a7
+2026-01-15 13:24:14,547 - shared.protocols.transactions - INFO - Transaction 8a78d599-30bb-435c-9116-fff4478933a7 committed in 0.077s
+2026-01-15 13:24:14,547 - shared.protocols.transactions - INFO - Transaction 1026da0d-44c7-4f61-a891-1693a09a76d3 started with 5 participants
+2026-01-15 13:24:14,548 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 1026da0d-44c7-4f61-a891-1693a09a76d3
+2026-01-15 13:24:14,599 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 1026da0d-44c7-4f61-a891-1693a09a76d3
+2026-01-15 13:24:14,650 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 1026da0d-44c7-4f61-a891-1693a09a76d3
+2026-01-15 13:24:14,676 - shared.protocols.transactions - INFO - Transaction 1026da0d-44c7-4f61-a891-1693a09a76d3 committed in 0.128s
+2026-01-15 13:24:14,676 - shared.protocols.transactions - INFO - Transaction c9c7ce72-0121-4306-8bee-9e4e475e58d4 started with 5 participants
+2026-01-15 13:24:14,676 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction c9c7ce72-0121-4306-8bee-9e4e475e58d4
+2026-01-15 13:24:14,727 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction c9c7ce72-0121-4306-8bee-9e4e475e58d4
+2026-01-15 13:24:14,753 - shared.protocols.transactions - INFO - Transaction c9c7ce72-0121-4306-8bee-9e4e475e58d4 committed in 0.076s
+2026-01-15 13:24:14,753 - shared.protocols.transactions - INFO - Transaction 4506ff6f-0fc8-4a9b-93dd-4f3e7c358afd started with 5 participants
+2026-01-15 13:24:14,753 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 4506ff6f-0fc8-4a9b-93dd-4f3e7c358afd
+2026-01-15 13:24:14,804 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 4506ff6f-0fc8-4a9b-93dd-4f3e7c358afd
+2026-01-15 13:24:14,854 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 4506ff6f-0fc8-4a9b-93dd-4f3e7c358afd
+2026-01-15 13:24:14,880 - shared.protocols.transactions - INFO - Transaction 4506ff6f-0fc8-4a9b-93dd-4f3e7c358afd committed in 0.127s
+2026-01-15 13:24:14,880 - shared.protocols.transactions - INFO - Transaction d5913780-e3e9-4f20-bb73-5f333d52a231 started with 5 participants
+2026-01-15 13:24:14,880 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction d5913780-e3e9-4f20-bb73-5f333d52a231
+2026-01-15 13:24:14,931 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction d5913780-e3e9-4f20-bb73-5f333d52a231
+2026-01-15 13:24:14,957 - shared.protocols.transactions - INFO - Transaction d5913780-e3e9-4f20-bb73-5f333d52a231 committed in 0.076s
+2026-01-15 13:24:14,957 - shared.protocols.transactions - INFO - Transaction 9aa4f317-b3de-4140-86f5-d35528fcc1c2 started with 5 participants
+2026-01-15 13:24:14,957 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 9aa4f317-b3de-4140-86f5-d35528fcc1c2
+2026-01-15 13:24:15,008 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 9aa4f317-b3de-4140-86f5-d35528fcc1c2
+2026-01-15 13:24:15,058 - shared.protocols.transactions - WARNING - Transaction 9aa4f317-b3de-4140-86f5-d35528fcc1c2 aborting in phase 2
+2026-01-15 13:24:15,085 - shared.protocols.transactions - INFO - Transaction be3bc295-026a-4a1a-a756-2b56b312b7f7 started with 5 participants
+2026-01-15 13:24:15,085 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction be3bc295-026a-4a1a-a756-2b56b312b7f7
+2026-01-15 13:24:15,135 - shared.protocols.transactions - WARNING - Transaction be3bc295-026a-4a1a-a756-2b56b312b7f7 aborting
+2026-01-15 13:24:15,161 - shared.protocols.transactions - INFO - Transaction aeca8447-fd1d-4120-b977-e726b2765aa3 started with 5 participants
+2026-01-15 13:24:15,162 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction aeca8447-fd1d-4120-b977-e726b2765aa3
+2026-01-15 13:24:15,212 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction aeca8447-fd1d-4120-b977-e726b2765aa3
+2026-01-15 13:24:15,263 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction aeca8447-fd1d-4120-b977-e726b2765aa3
+2026-01-15 13:24:15,289 - shared.protocols.transactions - INFO - Transaction aeca8447-fd1d-4120-b977-e726b2765aa3 committed in 0.127s
+2026-01-15 13:24:15,289 - shared.protocols.transactions - INFO - Transaction 99c261f2-a203-4d70-95fd-3743a8687800 started with 5 participants
+2026-01-15 13:24:15,289 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 99c261f2-a203-4d70-95fd-3743a8687800
+2026-01-15 13:24:15,340 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 99c261f2-a203-4d70-95fd-3743a8687800
+2026-01-15 13:24:15,366 - shared.protocols.transactions - INFO - Transaction 99c261f2-a203-4d70-95fd-3743a8687800 committed in 0.077s
+2026-01-15 13:24:15,366 - shared.protocols.transactions - INFO - Transaction 3940c656-d2de-44bd-879e-7c198cfcf13c started with 5 participants
+2026-01-15 13:24:15,366 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 3940c656-d2de-44bd-879e-7c198cfcf13c
+2026-01-15 13:24:15,417 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 3940c656-d2de-44bd-879e-7c198cfcf13c
+2026-01-15 13:24:15,468 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 3940c656-d2de-44bd-879e-7c198cfcf13c
+2026-01-15 13:24:15,494 - shared.protocols.transactions - INFO - Transaction 3940c656-d2de-44bd-879e-7c198cfcf13c committed in 0.128s
+2026-01-15 13:24:15,494 - shared.protocols.transactions - INFO - Transaction 85234baf-222e-4eeb-90b1-c9be595867f3 started with 5 participants
+2026-01-15 13:24:15,494 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 85234baf-222e-4eeb-90b1-c9be595867f3
+2026-01-15 13:24:15,545 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 85234baf-222e-4eeb-90b1-c9be595867f3
+2026-01-15 13:24:15,571 - shared.protocols.transactions - INFO - Transaction 85234baf-222e-4eeb-90b1-c9be595867f3 committed in 0.076s
+2026-01-15 13:24:15,571 - shared.protocols.transactions - INFO - Transaction 5e1e45cd-8ee4-4202-888b-8ce51f71d707 started with 5 participants
+2026-01-15 13:24:15,571 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 5e1e45cd-8ee4-4202-888b-8ce51f71d707
+2026-01-15 13:24:15,622 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 5e1e45cd-8ee4-4202-888b-8ce51f71d707
+2026-01-15 13:24:15,674 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 5e1e45cd-8ee4-4202-888b-8ce51f71d707
+2026-01-15 13:24:15,700 - shared.protocols.transactions - INFO - Transaction 5e1e45cd-8ee4-4202-888b-8ce51f71d707 committed in 0.129s
+2026-01-15 13:24:15,700 - shared.protocols.transactions - INFO - Transaction 13c0543a-d3bb-4563-9034-a9a49f41d22a started with 5 participants
+2026-01-15 13:24:15,700 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 13c0543a-d3bb-4563-9034-a9a49f41d22a
+2026-01-15 13:24:15,751 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 13c0543a-d3bb-4563-9034-a9a49f41d22a
+2026-01-15 13:24:15,777 - shared.protocols.transactions - INFO - Transaction 13c0543a-d3bb-4563-9034-a9a49f41d22a committed in 0.076s
+2026-01-15 13:24:15,777 - shared.protocols.transactions - INFO - Transaction 288df795-fa0e-4cb9-bc71-e48387a3103e started with 5 participants
+2026-01-15 13:24:15,777 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 288df795-fa0e-4cb9-bc71-e48387a3103e
+2026-01-15 13:24:15,828 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 288df795-fa0e-4cb9-bc71-e48387a3103e
+2026-01-15 13:24:15,879 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 288df795-fa0e-4cb9-bc71-e48387a3103e
+2026-01-15 13:24:15,904 - shared.protocols.transactions - INFO - Transaction 288df795-fa0e-4cb9-bc71-e48387a3103e committed in 0.127s
+2026-01-15 13:24:15,905 - shared.protocols.transactions - INFO - Transaction 2db702c0-8e1d-4cd9-a6c6-30f8f9e31838 started with 5 participants
+2026-01-15 13:24:15,905 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 2db702c0-8e1d-4cd9-a6c6-30f8f9e31838
+2026-01-15 13:24:15,955 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 2db702c0-8e1d-4cd9-a6c6-30f8f9e31838
+2026-01-15 13:24:15,981 - shared.protocols.transactions - INFO - Transaction 2db702c0-8e1d-4cd9-a6c6-30f8f9e31838 committed in 0.076s
+2026-01-15 13:24:15,981 - shared.protocols.transactions - INFO - Transaction 8a78c5dc-54ab-4819-a502-a4bda41a4881 started with 5 participants
+2026-01-15 13:24:15,981 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 8a78c5dc-54ab-4819-a502-a4bda41a4881
+2026-01-15 13:24:16,032 - shared.protocols.transactions - WARNING - Transaction 8a78c5dc-54ab-4819-a502-a4bda41a4881 aborting in phase 1
+2026-01-15 13:24:16,058 - shared.protocols.transactions - INFO - Transaction 4257b3e7-b60f-4865-be86-d59a746c4d43 started with 5 participants
+2026-01-15 13:24:16,058 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 4257b3e7-b60f-4865-be86-d59a746c4d43
+2026-01-15 13:24:16,109 - shared.protocols.transactions - WARNING - Transaction 4257b3e7-b60f-4865-be86-d59a746c4d43 aborting
+2026-01-15 13:24:16,135 - shared.protocols.transactions - INFO - Transaction 787603cf-1d02-4de8-8b05-fa192baa2fb8 started with 5 participants
+2026-01-15 13:24:16,135 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 787603cf-1d02-4de8-8b05-fa192baa2fb8
+2026-01-15 13:24:16,185 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 787603cf-1d02-4de8-8b05-fa192baa2fb8
+2026-01-15 13:24:16,236 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 787603cf-1d02-4de8-8b05-fa192baa2fb8
+2026-01-15 13:24:16,262 - shared.protocols.transactions - INFO - Transaction 787603cf-1d02-4de8-8b05-fa192baa2fb8 committed in 0.127s
+2026-01-15 13:24:16,262 - shared.protocols.transactions - INFO - Transaction bbca159c-3573-4e47-8467-a21b54e300a5 started with 5 participants
+2026-01-15 13:24:16,262 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction bbca159c-3573-4e47-8467-a21b54e300a5
+2026-01-15 13:24:16,313 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction bbca159c-3573-4e47-8467-a21b54e300a5
+2026-01-15 13:24:16,338 - shared.protocols.transactions - INFO - Transaction bbca159c-3573-4e47-8467-a21b54e300a5 committed in 0.076s
+2026-01-15 13:24:16,339 - shared.protocols.transactions - INFO - Transaction d85acb8c-e59f-46e2-bfac-f8348872a7e5 started with 5 participants
+2026-01-15 13:24:16,339 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction d85acb8c-e59f-46e2-bfac-f8348872a7e5
+2026-01-15 13:24:16,389 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction d85acb8c-e59f-46e2-bfac-f8348872a7e5
+2026-01-15 13:24:16,440 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction d85acb8c-e59f-46e2-bfac-f8348872a7e5
+2026-01-15 13:24:16,466 - shared.protocols.transactions - INFO - Transaction d85acb8c-e59f-46e2-bfac-f8348872a7e5 committed in 0.127s
+2026-01-15 13:24:16,466 - shared.protocols.transactions - INFO - Transaction d48df8be-8ba7-485a-bd12-8e6d99585cd9 started with 5 participants
+2026-01-15 13:24:16,466 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction d48df8be-8ba7-485a-bd12-8e6d99585cd9
+2026-01-15 13:24:16,517 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction d48df8be-8ba7-485a-bd12-8e6d99585cd9
+2026-01-15 13:24:16,543 - shared.protocols.transactions - INFO - Transaction d48df8be-8ba7-485a-bd12-8e6d99585cd9 committed in 0.077s
+2026-01-15 13:24:16,544 - shared.protocols.transactions - INFO - Transaction 4651b886-99eb-4165-9a2b-4082a5baea74 started with 5 participants
+2026-01-15 13:24:16,544 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 4651b886-99eb-4165-9a2b-4082a5baea74
+2026-01-15 13:24:16,594 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 4651b886-99eb-4165-9a2b-4082a5baea74
+2026-01-15 13:24:16,645 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 4651b886-99eb-4165-9a2b-4082a5baea74
+2026-01-15 13:24:16,671 - shared.protocols.transactions - INFO - Transaction 4651b886-99eb-4165-9a2b-4082a5baea74 committed in 0.127s
+2026-01-15 13:24:16,671 - shared.protocols.transactions - INFO - Transaction f227cfa4-48f6-4374-a4a4-4018aeb1e6b1 started with 5 participants
+2026-01-15 13:24:16,671 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction f227cfa4-48f6-4374-a4a4-4018aeb1e6b1
+2026-01-15 13:24:16,722 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction f227cfa4-48f6-4374-a4a4-4018aeb1e6b1
+2026-01-15 13:24:16,747 - shared.protocols.transactions - INFO - Transaction f227cfa4-48f6-4374-a4a4-4018aeb1e6b1 committed in 0.076s
+2026-01-15 13:24:16,748 - shared.protocols.transactions - INFO - Transaction dc830677-55e6-4c39-9070-eee0aad4485c started with 5 participants
+2026-01-15 13:24:16,748 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction dc830677-55e6-4c39-9070-eee0aad4485c
+2026-01-15 13:24:16,798 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction dc830677-55e6-4c39-9070-eee0aad4485c
+2026-01-15 13:24:16,849 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction dc830677-55e6-4c39-9070-eee0aad4485c
+2026-01-15 13:24:16,875 - shared.protocols.transactions - INFO - Transaction dc830677-55e6-4c39-9070-eee0aad4485c committed in 0.127s
+2026-01-15 13:24:16,875 - shared.protocols.transactions - INFO - Transaction bea3852f-b231-45f3-abe0-7cf050196e67 started with 5 participants
+2026-01-15 13:24:16,875 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction bea3852f-b231-45f3-abe0-7cf050196e67
+2026-01-15 13:24:16,926 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction bea3852f-b231-45f3-abe0-7cf050196e67
+2026-01-15 13:24:16,952 - shared.protocols.transactions - INFO - Transaction bea3852f-b231-45f3-abe0-7cf050196e67 committed in 0.076s
+2026-01-15 13:24:16,952 - shared.protocols.transactions - INFO - Transaction 9e1c9e70-6a9e-4278-a61e-616652419ace started with 5 participants
+2026-01-15 13:24:16,952 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 9e1c9e70-6a9e-4278-a61e-616652419ace
+2026-01-15 13:24:17,002 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 9e1c9e70-6a9e-4278-a61e-616652419ace
+2026-01-15 13:24:17,053 - shared.protocols.transactions - WARNING - Transaction 9e1c9e70-6a9e-4278-a61e-616652419ace aborting in phase 2
+2026-01-15 13:24:17,079 - shared.protocols.transactions - INFO - Transaction f56a2d91-ac94-498c-bd6c-a4938b2cdbae started with 5 participants
+2026-01-15 13:24:17,079 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction f56a2d91-ac94-498c-bd6c-a4938b2cdbae
+2026-01-15 13:24:17,130 - shared.protocols.transactions - WARNING - Transaction f56a2d91-ac94-498c-bd6c-a4938b2cdbae aborting
+2026-01-15 13:24:17,156 - shared.protocols.transactions - INFO - Transaction 9fa8f306-5f5d-4ec6-ab8b-9a83e6684754 started with 5 participants
+2026-01-15 13:24:17,156 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 9fa8f306-5f5d-4ec6-ab8b-9a83e6684754
+2026-01-15 13:24:17,206 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 9fa8f306-5f5d-4ec6-ab8b-9a83e6684754
+2026-01-15 13:24:17,257 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 9fa8f306-5f5d-4ec6-ab8b-9a83e6684754
+2026-01-15 13:24:17,283 - shared.protocols.transactions - INFO - Transaction 9fa8f306-5f5d-4ec6-ab8b-9a83e6684754 committed in 0.127s
+2026-01-15 13:24:17,283 - shared.protocols.transactions - INFO - Transaction 227937d6-2dda-436b-9216-3d70c2771a40 started with 5 participants
+2026-01-15 13:24:17,283 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 227937d6-2dda-436b-9216-3d70c2771a40
+2026-01-15 13:24:17,333 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 227937d6-2dda-436b-9216-3d70c2771a40
+2026-01-15 13:24:17,359 - shared.protocols.transactions - INFO - Transaction 227937d6-2dda-436b-9216-3d70c2771a40 committed in 0.076s
+2026-01-15 13:24:17,359 - shared.protocols.transactions - INFO - Transaction 3e89f2bb-dc57-4068-8216-561f76670a9b started with 5 participants
+2026-01-15 13:24:17,359 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 3e89f2bb-dc57-4068-8216-561f76670a9b
+2026-01-15 13:24:17,410 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 3e89f2bb-dc57-4068-8216-561f76670a9b
+2026-01-15 13:24:17,461 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 3e89f2bb-dc57-4068-8216-561f76670a9b
+2026-01-15 13:24:17,486 - shared.protocols.transactions - INFO - Transaction 3e89f2bb-dc57-4068-8216-561f76670a9b committed in 0.127s
+2026-01-15 13:24:17,486 - shared.protocols.transactions - INFO - Transaction 7d6c8e37-b6dd-4d64-8b4d-37e5842c7671 started with 5 participants
+2026-01-15 13:24:17,487 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 7d6c8e37-b6dd-4d64-8b4d-37e5842c7671
+2026-01-15 13:24:17,537 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 7d6c8e37-b6dd-4d64-8b4d-37e5842c7671
+2026-01-15 13:24:17,563 - shared.protocols.transactions - INFO - Transaction 7d6c8e37-b6dd-4d64-8b4d-37e5842c7671 committed in 0.076s
+2026-01-15 13:24:17,563 - shared.protocols.transactions - INFO - Transaction a9198bf6-d813-4630-8a34-54aab1d5639a started with 5 participants
+2026-01-15 13:24:17,563 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction a9198bf6-d813-4630-8a34-54aab1d5639a
+2026-01-15 13:24:17,614 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction a9198bf6-d813-4630-8a34-54aab1d5639a
+2026-01-15 13:24:17,664 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction a9198bf6-d813-4630-8a34-54aab1d5639a
+2026-01-15 13:24:17,690 - shared.protocols.transactions - INFO - Transaction a9198bf6-d813-4630-8a34-54aab1d5639a committed in 0.127s
+2026-01-15 13:24:17,690 - shared.protocols.transactions - INFO - Transaction bec5f08d-8990-49e7-88e5-57315cedea1e started with 5 participants
+2026-01-15 13:24:17,690 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction bec5f08d-8990-49e7-88e5-57315cedea1e
+2026-01-15 13:24:17,741 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction bec5f08d-8990-49e7-88e5-57315cedea1e
+2026-01-15 13:24:17,768 - shared.protocols.transactions - INFO - Transaction bec5f08d-8990-49e7-88e5-57315cedea1e committed in 0.078s
+2026-01-15 13:24:17,768 - shared.protocols.transactions - INFO - Transaction 136ed94b-d655-4ec2-a377-c57254b2573e started with 5 participants
+2026-01-15 13:24:17,769 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 136ed94b-d655-4ec2-a377-c57254b2573e
+2026-01-15 13:24:17,819 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 136ed94b-d655-4ec2-a377-c57254b2573e
+2026-01-15 13:24:17,870 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 136ed94b-d655-4ec2-a377-c57254b2573e
+2026-01-15 13:24:17,897 - shared.protocols.transactions - INFO - Transaction 136ed94b-d655-4ec2-a377-c57254b2573e committed in 0.129s
+2026-01-15 13:24:17,897 - shared.protocols.transactions - INFO - Transaction 449c31f8-5777-47e6-aa49-4c803c30b923 started with 5 participants
+2026-01-15 13:24:17,897 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 449c31f8-5777-47e6-aa49-4c803c30b923
+2026-01-15 13:24:17,948 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 449c31f8-5777-47e6-aa49-4c803c30b923
+2026-01-15 13:24:17,974 - shared.protocols.transactions - INFO - Transaction 449c31f8-5777-47e6-aa49-4c803c30b923 committed in 0.076s
+2026-01-15 13:24:17,974 - shared.protocols.transactions - INFO - Transaction 9802c3a4-64c0-443a-a4c3-9a8bdb9b442e started with 5 participants
+2026-01-15 13:24:17,975 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 9802c3a4-64c0-443a-a4c3-9a8bdb9b442e
+2026-01-15 13:24:18,026 - shared.protocols.transactions - WARNING - Transaction 9802c3a4-64c0-443a-a4c3-9a8bdb9b442e aborting in phase 1
+2026-01-15 13:24:18,052 - shared.protocols.transactions - INFO - Transaction c762eaf9-b24e-4d3b-9c01-28ac5c068bd7 started with 5 participants
+2026-01-15 13:24:18,052 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction c762eaf9-b24e-4d3b-9c01-28ac5c068bd7
+2026-01-15 13:24:18,103 - shared.protocols.transactions - WARNING - Transaction c762eaf9-b24e-4d3b-9c01-28ac5c068bd7 aborting
+2026-01-15 13:24:18,129 - shared.protocols.transactions - INFO - Transaction e9068b4a-23d9-4953-85d4-8660ace9966e started with 5 participants
+2026-01-15 13:24:18,129 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction e9068b4a-23d9-4953-85d4-8660ace9966e
+2026-01-15 13:24:18,179 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction e9068b4a-23d9-4953-85d4-8660ace9966e
+2026-01-15 13:24:18,230 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction e9068b4a-23d9-4953-85d4-8660ace9966e
+2026-01-15 13:24:18,256 - shared.protocols.transactions - INFO - Transaction e9068b4a-23d9-4953-85d4-8660ace9966e committed in 0.127s
+2026-01-15 13:24:18,256 - shared.protocols.transactions - INFO - Transaction 8ba1e1bf-9100-45da-9640-f0ee5aa8da80 started with 5 participants
+2026-01-15 13:24:18,256 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 8ba1e1bf-9100-45da-9640-f0ee5aa8da80
+2026-01-15 13:24:18,306 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 8ba1e1bf-9100-45da-9640-f0ee5aa8da80
+2026-01-15 13:24:18,332 - shared.protocols.transactions - INFO - Transaction 8ba1e1bf-9100-45da-9640-f0ee5aa8da80 committed in 0.076s
+2026-01-15 13:24:18,332 - shared.protocols.transactions - INFO - Transaction 8b0d670a-605c-4069-a61a-3ec7eeeb1441 started with 5 participants
+2026-01-15 13:24:18,333 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 8b0d670a-605c-4069-a61a-3ec7eeeb1441
+2026-01-15 13:24:18,383 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 8b0d670a-605c-4069-a61a-3ec7eeeb1441
+2026-01-15 13:24:18,434 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 8b0d670a-605c-4069-a61a-3ec7eeeb1441
+2026-01-15 13:24:18,459 - shared.protocols.transactions - INFO - Transaction 8b0d670a-605c-4069-a61a-3ec7eeeb1441 committed in 0.127s
+2026-01-15 13:24:18,460 - shared.protocols.transactions - INFO - Transaction 231cc64c-3922-4f59-89e0-cf60a345541d started with 5 participants
+2026-01-15 13:24:18,460 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 231cc64c-3922-4f59-89e0-cf60a345541d
+2026-01-15 13:24:18,510 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 231cc64c-3922-4f59-89e0-cf60a345541d
+2026-01-15 13:24:18,536 - shared.protocols.transactions - INFO - Transaction 231cc64c-3922-4f59-89e0-cf60a345541d committed in 0.076s
+2026-01-15 13:24:18,536 - shared.protocols.transactions - INFO - Transaction f3185919-7d50-4746-8732-17891ca85738 started with 5 participants
+2026-01-15 13:24:18,536 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction f3185919-7d50-4746-8732-17891ca85738
+2026-01-15 13:24:18,588 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction f3185919-7d50-4746-8732-17891ca85738
+2026-01-15 13:24:18,638 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction f3185919-7d50-4746-8732-17891ca85738
+2026-01-15 13:24:18,665 - shared.protocols.transactions - INFO - Transaction f3185919-7d50-4746-8732-17891ca85738 committed in 0.129s
+2026-01-15 13:24:18,665 - shared.protocols.transactions - INFO - Transaction 96b3d56e-aa6f-4975-b3ee-df518dc086de started with 5 participants
+2026-01-15 13:24:18,665 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 96b3d56e-aa6f-4975-b3ee-df518dc086de
+2026-01-15 13:24:18,716 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 96b3d56e-aa6f-4975-b3ee-df518dc086de
+2026-01-15 13:24:18,741 - shared.protocols.transactions - INFO - Transaction 96b3d56e-aa6f-4975-b3ee-df518dc086de committed in 0.076s
+2026-01-15 13:24:18,742 - shared.protocols.transactions - INFO - Transaction 6d49b4a8-951c-474d-bbd1-6e40c2cb3096 started with 5 participants
+2026-01-15 13:24:18,742 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 6d49b4a8-951c-474d-bbd1-6e40c2cb3096
+2026-01-15 13:24:18,792 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 6d49b4a8-951c-474d-bbd1-6e40c2cb3096
+2026-01-15 13:24:18,843 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 6d49b4a8-951c-474d-bbd1-6e40c2cb3096
+2026-01-15 13:24:18,868 - shared.protocols.transactions - INFO - Transaction 6d49b4a8-951c-474d-bbd1-6e40c2cb3096 committed in 0.127s
+2026-01-15 13:24:18,869 - shared.protocols.transactions - INFO - Transaction 7aca7f29-1e9d-4181-8e88-40ed781b3380 started with 5 participants
+2026-01-15 13:24:18,869 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 7aca7f29-1e9d-4181-8e88-40ed781b3380
+2026-01-15 13:24:18,919 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 7aca7f29-1e9d-4181-8e88-40ed781b3380
+2026-01-15 13:24:18,945 - shared.protocols.transactions - INFO - Transaction 7aca7f29-1e9d-4181-8e88-40ed781b3380 committed in 0.076s
+2026-01-15 13:24:18,945 - shared.protocols.transactions - INFO - Transaction cb3a21d4-fa90-4302-bdf9-a4a8bf2b9083 started with 5 participants
+2026-01-15 13:24:18,945 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction cb3a21d4-fa90-4302-bdf9-a4a8bf2b9083
+2026-01-15 13:24:18,996 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction cb3a21d4-fa90-4302-bdf9-a4a8bf2b9083
+2026-01-15 13:24:19,047 - shared.protocols.transactions - WARNING - Transaction cb3a21d4-fa90-4302-bdf9-a4a8bf2b9083 aborting in phase 2
+2026-01-15 13:24:19,072 - shared.protocols.transactions - INFO - Transaction 8e571a49-a7c3-478f-a4a1-ec3f41eef427 started with 5 participants
+2026-01-15 13:24:19,072 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 8e571a49-a7c3-478f-a4a1-ec3f41eef427
+2026-01-15 13:24:19,123 - shared.protocols.transactions - WARNING - Transaction 8e571a49-a7c3-478f-a4a1-ec3f41eef427 aborting
+2026-01-15 13:24:19,150 - shared.protocols.transactions - INFO - Transaction d9ad6bbe-b20b-4839-9150-5f5e08da52e8 started with 5 participants
+2026-01-15 13:24:19,150 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction d9ad6bbe-b20b-4839-9150-5f5e08da52e8
+2026-01-15 13:24:19,201 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction d9ad6bbe-b20b-4839-9150-5f5e08da52e8
+2026-01-15 13:24:19,253 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction d9ad6bbe-b20b-4839-9150-5f5e08da52e8
+2026-01-15 13:24:19,278 - shared.protocols.transactions - INFO - Transaction d9ad6bbe-b20b-4839-9150-5f5e08da52e8 committed in 0.128s
+2026-01-15 13:24:19,278 - shared.protocols.transactions - INFO - Transaction 49b09b18-64e2-447f-96a8-3e8e629a1f05 started with 5 participants
+2026-01-15 13:24:19,279 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 49b09b18-64e2-447f-96a8-3e8e629a1f05
+2026-01-15 13:24:19,329 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 49b09b18-64e2-447f-96a8-3e8e629a1f05
+2026-01-15 13:24:19,355 - shared.protocols.transactions - INFO - Transaction 49b09b18-64e2-447f-96a8-3e8e629a1f05 committed in 0.076s
+2026-01-15 13:24:19,355 - shared.protocols.transactions - INFO - Transaction 53c77662-4ccb-4c3b-9bf2-bacb29a91bae started with 5 participants
+2026-01-15 13:24:19,355 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 53c77662-4ccb-4c3b-9bf2-bacb29a91bae
+2026-01-15 13:24:19,406 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 53c77662-4ccb-4c3b-9bf2-bacb29a91bae
+2026-01-15 13:24:19,457 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 53c77662-4ccb-4c3b-9bf2-bacb29a91bae
+2026-01-15 13:24:19,482 - shared.protocols.transactions - INFO - Transaction 53c77662-4ccb-4c3b-9bf2-bacb29a91bae committed in 0.127s
+2026-01-15 13:24:19,482 - shared.protocols.transactions - INFO - Transaction f22abd6b-b824-4026-bb8d-6d7b95713869 started with 5 participants
+2026-01-15 13:24:19,482 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction f22abd6b-b824-4026-bb8d-6d7b95713869
+2026-01-15 13:24:19,533 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction f22abd6b-b824-4026-bb8d-6d7b95713869
+2026-01-15 13:24:19,559 - shared.protocols.transactions - INFO - Transaction f22abd6b-b824-4026-bb8d-6d7b95713869 committed in 0.076s
+2026-01-15 13:24:19,559 - shared.protocols.transactions - INFO - Transaction dca2d90d-acff-4f8f-9efc-ef189369cc67 started with 5 participants
+2026-01-15 13:24:19,559 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction dca2d90d-acff-4f8f-9efc-ef189369cc67
+2026-01-15 13:24:19,609 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction dca2d90d-acff-4f8f-9efc-ef189369cc67
+2026-01-15 13:24:19,660 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction dca2d90d-acff-4f8f-9efc-ef189369cc67
+2026-01-15 13:24:19,686 - shared.protocols.transactions - INFO - Transaction dca2d90d-acff-4f8f-9efc-ef189369cc67 committed in 0.127s
+2026-01-15 13:24:19,686 - shared.protocols.transactions - INFO - Transaction ae0532dd-8953-4011-a2ba-16abe9895d8f started with 5 participants
+2026-01-15 13:24:19,686 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction ae0532dd-8953-4011-a2ba-16abe9895d8f
+2026-01-15 13:24:19,736 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction ae0532dd-8953-4011-a2ba-16abe9895d8f
+2026-01-15 13:24:19,762 - shared.protocols.transactions - INFO - Transaction ae0532dd-8953-4011-a2ba-16abe9895d8f committed in 0.076s
+2026-01-15 13:24:19,762 - shared.protocols.transactions - INFO - Transaction 6aac6fe1-c41e-4a51-b2b4-fe313fe2f108 started with 5 participants
+2026-01-15 13:24:19,762 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 6aac6fe1-c41e-4a51-b2b4-fe313fe2f108
+2026-01-15 13:24:19,813 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 6aac6fe1-c41e-4a51-b2b4-fe313fe2f108
+2026-01-15 13:24:19,864 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 6aac6fe1-c41e-4a51-b2b4-fe313fe2f108
+2026-01-15 13:24:19,889 - shared.protocols.transactions - INFO - Transaction 6aac6fe1-c41e-4a51-b2b4-fe313fe2f108 committed in 0.127s
+2026-01-15 13:24:19,890 - shared.protocols.transactions - INFO - Transaction aba741c5-30b0-4ea0-9480-07c338ded649 started with 5 participants
+2026-01-15 13:24:19,890 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction aba741c5-30b0-4ea0-9480-07c338ded649
+2026-01-15 13:24:19,941 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction aba741c5-30b0-4ea0-9480-07c338ded649
+2026-01-15 13:24:19,967 - shared.protocols.transactions - INFO - Transaction aba741c5-30b0-4ea0-9480-07c338ded649 committed in 0.076s
+2026-01-15 13:24:19,967 - shared.protocols.transactions - INFO - Transaction d96f8635-c029-4e3a-84fd-f485f1880f60 started with 5 participants
+2026-01-15 13:24:19,967 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction d96f8635-c029-4e3a-84fd-f485f1880f60
+2026-01-15 13:24:20,017 - shared.protocols.transactions - WARNING - Transaction d96f8635-c029-4e3a-84fd-f485f1880f60 aborting in phase 1
+2026-01-15 13:24:20,043 - shared.protocols.transactions - INFO - Transaction 1c735f4c-0eb9-47e6-86c5-6ddf0d9710b3 started with 5 participants
+2026-01-15 13:24:20,044 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 1c735f4c-0eb9-47e6-86c5-6ddf0d9710b3
+2026-01-15 13:24:20,095 - shared.protocols.transactions - WARNING - Transaction 1c735f4c-0eb9-47e6-86c5-6ddf0d9710b3 aborting
+2026-01-15 13:24:20,121 - shared.protocols.transactions - INFO - Transaction ceaf2430-9969-4cf8-b1d9-50b59629f762 started with 5 participants
+2026-01-15 13:24:20,121 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction ceaf2430-9969-4cf8-b1d9-50b59629f762
+2026-01-15 13:24:20,171 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction ceaf2430-9969-4cf8-b1d9-50b59629f762
+2026-01-15 13:24:20,222 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction ceaf2430-9969-4cf8-b1d9-50b59629f762
+2026-01-15 13:24:20,248 - shared.protocols.transactions - INFO - Transaction ceaf2430-9969-4cf8-b1d9-50b59629f762 committed in 0.127s
+2026-01-15 13:24:20,248 - shared.protocols.transactions - INFO - Transaction c3fc5792-66e7-4937-bd4c-d4f11adbd4cc started with 5 participants
+2026-01-15 13:24:20,248 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction c3fc5792-66e7-4937-bd4c-d4f11adbd4cc
+2026-01-15 13:24:20,299 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction c3fc5792-66e7-4937-bd4c-d4f11adbd4cc
+2026-01-15 13:24:20,325 - shared.protocols.transactions - INFO - Transaction c3fc5792-66e7-4937-bd4c-d4f11adbd4cc committed in 0.077s
+2026-01-15 13:24:20,325 - shared.protocols.transactions - INFO - Transaction fe31d11e-feb4-494d-8d0a-cf1e159427b8 started with 5 participants
+2026-01-15 13:24:20,325 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction fe31d11e-feb4-494d-8d0a-cf1e159427b8
+2026-01-15 13:24:20,376 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction fe31d11e-feb4-494d-8d0a-cf1e159427b8
+2026-01-15 13:24:20,427 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction fe31d11e-feb4-494d-8d0a-cf1e159427b8
+2026-01-15 13:24:20,452 - shared.protocols.transactions - INFO - Transaction fe31d11e-feb4-494d-8d0a-cf1e159427b8 committed in 0.127s
+2026-01-15 13:24:20,452 - shared.protocols.transactions - INFO - Transaction 492e210d-dd75-47e6-ab25-f31476ab62cf started with 5 participants
+2026-01-15 13:24:20,452 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 492e210d-dd75-47e6-ab25-f31476ab62cf
+2026-01-15 13:24:20,503 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 492e210d-dd75-47e6-ab25-f31476ab62cf
+2026-01-15 13:24:20,529 - shared.protocols.transactions - INFO - Transaction 492e210d-dd75-47e6-ab25-f31476ab62cf committed in 0.076s
+2026-01-15 13:24:20,529 - shared.protocols.transactions - INFO - Transaction 42a88fd9-2b5f-45be-9d37-6d832c9204f0 started with 5 participants
+2026-01-15 13:24:20,529 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 42a88fd9-2b5f-45be-9d37-6d832c9204f0
+2026-01-15 13:24:20,579 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 42a88fd9-2b5f-45be-9d37-6d832c9204f0
+2026-01-15 13:24:20,630 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 42a88fd9-2b5f-45be-9d37-6d832c9204f0
+2026-01-15 13:24:20,656 - shared.protocols.transactions - INFO - Transaction 42a88fd9-2b5f-45be-9d37-6d832c9204f0 committed in 0.127s
+2026-01-15 13:24:20,656 - shared.protocols.transactions - INFO - Transaction b17399f8-a4f2-4647-979b-4ee82a1dff7b started with 5 participants
+2026-01-15 13:24:20,656 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction b17399f8-a4f2-4647-979b-4ee82a1dff7b
+2026-01-15 13:24:20,707 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction b17399f8-a4f2-4647-979b-4ee82a1dff7b
+2026-01-15 13:24:20,733 - shared.protocols.transactions - INFO - Transaction b17399f8-a4f2-4647-979b-4ee82a1dff7b committed in 0.076s
+2026-01-15 13:24:20,733 - shared.protocols.transactions - INFO - Transaction 70d1e306-fe36-49ee-a1d3-a4a69e9a486a started with 5 participants
+2026-01-15 13:24:20,733 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 70d1e306-fe36-49ee-a1d3-a4a69e9a486a
+2026-01-15 13:24:20,783 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 70d1e306-fe36-49ee-a1d3-a4a69e9a486a
+2026-01-15 13:24:20,834 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 70d1e306-fe36-49ee-a1d3-a4a69e9a486a
+2026-01-15 13:24:20,860 - shared.protocols.transactions - INFO - Transaction 70d1e306-fe36-49ee-a1d3-a4a69e9a486a committed in 0.127s
+2026-01-15 13:24:20,861 - shared.protocols.transactions - INFO - Transaction aba02bc1-4b13-4aa5-89db-4931a4830c18 started with 5 participants
+2026-01-15 13:24:20,861 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction aba02bc1-4b13-4aa5-89db-4931a4830c18
+2026-01-15 13:24:20,912 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction aba02bc1-4b13-4aa5-89db-4931a4830c18
+2026-01-15 13:24:20,937 - shared.protocols.transactions - INFO - Transaction aba02bc1-4b13-4aa5-89db-4931a4830c18 committed in 0.076s
+2026-01-15 13:24:20,937 - shared.protocols.transactions - INFO - Transaction 7c08d8cd-4cbc-48f7-bc69-45ed4fc1ec20 started with 5 participants
+2026-01-15 13:24:20,937 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 7c08d8cd-4cbc-48f7-bc69-45ed4fc1ec20
+2026-01-15 13:24:20,988 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 7c08d8cd-4cbc-48f7-bc69-45ed4fc1ec20
+2026-01-15 13:24:21,039 - shared.protocols.transactions - WARNING - Transaction 7c08d8cd-4cbc-48f7-bc69-45ed4fc1ec20 aborting in phase 2
+2026-01-15 13:24:21,064 - shared.protocols.transactions - INFO - Transaction 49f04a1b-05e0-4cd9-a33e-654811a5b1ed started with 5 participants
+2026-01-15 13:24:21,065 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 49f04a1b-05e0-4cd9-a33e-654811a5b1ed
+2026-01-15 13:24:21,115 - shared.protocols.transactions - WARNING - Transaction 49f04a1b-05e0-4cd9-a33e-654811a5b1ed aborting
+2026-01-15 13:24:21,141 - shared.protocols.transactions - INFO - Transaction 6fc133b7-cff1-4e05-b681-f771fb08e5a5 started with 5 participants
+2026-01-15 13:24:21,141 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 6fc133b7-cff1-4e05-b681-f771fb08e5a5
+2026-01-15 13:24:21,192 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 6fc133b7-cff1-4e05-b681-f771fb08e5a5
+2026-01-15 13:24:21,243 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 6fc133b7-cff1-4e05-b681-f771fb08e5a5
+2026-01-15 13:24:21,269 - shared.protocols.transactions - INFO - Transaction 6fc133b7-cff1-4e05-b681-f771fb08e5a5 committed in 0.127s
+2026-01-15 13:24:21,269 - shared.protocols.transactions - INFO - Transaction 5c580a13-58e8-4056-978c-af000643c026 started with 5 participants
+2026-01-15 13:24:21,269 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 5c580a13-58e8-4056-978c-af000643c026
+2026-01-15 13:24:21,320 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 5c580a13-58e8-4056-978c-af000643c026
+2026-01-15 13:24:21,345 - shared.protocols.transactions - INFO - Transaction 5c580a13-58e8-4056-978c-af000643c026 committed in 0.076s
+2026-01-15 13:24:21,346 - shared.protocols.transactions - INFO - Transaction dcfad733-c830-4abc-83ff-3ee7e5dc9bbc started with 5 participants
+2026-01-15 13:24:21,346 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction dcfad733-c830-4abc-83ff-3ee7e5dc9bbc
+2026-01-15 13:24:21,396 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction dcfad733-c830-4abc-83ff-3ee7e5dc9bbc
+2026-01-15 13:24:21,447 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction dcfad733-c830-4abc-83ff-3ee7e5dc9bbc
+2026-01-15 13:24:21,473 - shared.protocols.transactions - INFO - Transaction dcfad733-c830-4abc-83ff-3ee7e5dc9bbc committed in 0.127s
+2026-01-15 13:24:21,473 - shared.protocols.transactions - INFO - Transaction b847cfdd-8b7e-4a37-8edb-f3516ab530cd started with 5 participants
+2026-01-15 13:24:21,473 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction b847cfdd-8b7e-4a37-8edb-f3516ab530cd
+2026-01-15 13:24:21,523 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction b847cfdd-8b7e-4a37-8edb-f3516ab530cd
+2026-01-15 13:24:21,549 - shared.protocols.transactions - INFO - Transaction b847cfdd-8b7e-4a37-8edb-f3516ab530cd committed in 0.076s
+2026-01-15 13:24:21,549 - shared.protocols.transactions - INFO - Transaction dd308bdf-c8f0-43e2-ba3b-7c0ea70afbfb started with 5 participants
+2026-01-15 13:24:21,549 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction dd308bdf-c8f0-43e2-ba3b-7c0ea70afbfb
+2026-01-15 13:24:21,600 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction dd308bdf-c8f0-43e2-ba3b-7c0ea70afbfb
+2026-01-15 13:24:21,651 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction dd308bdf-c8f0-43e2-ba3b-7c0ea70afbfb
+2026-01-15 13:24:21,676 - shared.protocols.transactions - INFO - Transaction dd308bdf-c8f0-43e2-ba3b-7c0ea70afbfb committed in 0.127s
+2026-01-15 13:24:21,676 - shared.protocols.transactions - INFO - Transaction ab8ad5a2-807f-43e3-a856-895ebed1c0a6 started with 5 participants
+2026-01-15 13:24:21,677 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction ab8ad5a2-807f-43e3-a856-895ebed1c0a6
+2026-01-15 13:24:21,727 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction ab8ad5a2-807f-43e3-a856-895ebed1c0a6
+2026-01-15 13:24:21,753 - shared.protocols.transactions - INFO - Transaction ab8ad5a2-807f-43e3-a856-895ebed1c0a6 committed in 0.076s
+2026-01-15 13:24:21,753 - shared.protocols.transactions - INFO - Transaction ea3b7c4c-310b-49e0-ac13-a00988d12e72 started with 5 participants
+2026-01-15 13:24:21,753 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction ea3b7c4c-310b-49e0-ac13-a00988d12e72
+2026-01-15 13:24:21,804 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction ea3b7c4c-310b-49e0-ac13-a00988d12e72
+2026-01-15 13:24:21,854 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction ea3b7c4c-310b-49e0-ac13-a00988d12e72
+2026-01-15 13:24:21,880 - shared.protocols.transactions - INFO - Transaction ea3b7c4c-310b-49e0-ac13-a00988d12e72 committed in 0.127s
+2026-01-15 13:24:21,881 - shared.protocols.transactions - INFO - Transaction 21ae3ad7-b90b-4231-9c67-1d1c3192969e started with 5 participants
+2026-01-15 13:24:21,882 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 21ae3ad7-b90b-4231-9c67-1d1c3192969e
+2026-01-15 13:24:21,933 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 21ae3ad7-b90b-4231-9c67-1d1c3192969e
+2026-01-15 13:24:21,959 - shared.protocols.transactions - INFO - Transaction 21ae3ad7-b90b-4231-9c67-1d1c3192969e committed in 0.077s
+2026-01-15 13:24:21,960 - shared.protocols.transactions - INFO - Transaction c4392641-f9eb-41e4-9cc1-09bf862e4a05 started with 5 participants
+2026-01-15 13:24:21,960 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction c4392641-f9eb-41e4-9cc1-09bf862e4a05
+2026-01-15 13:24:22,010 - shared.protocols.transactions - WARNING - Transaction c4392641-f9eb-41e4-9cc1-09bf862e4a05 aborting in phase 1
+2026-01-15 13:24:22,036 - shared.protocols.transactions - INFO - Transaction 7ca3d554-ac88-4687-b1e6-91e4433d9566 started with 5 participants
+2026-01-15 13:24:22,036 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 7ca3d554-ac88-4687-b1e6-91e4433d9566
+2026-01-15 13:24:22,087 - shared.protocols.transactions - WARNING - Transaction 7ca3d554-ac88-4687-b1e6-91e4433d9566 aborting
+2026-01-15 13:24:22,113 - shared.protocols.transactions - INFO - Transaction 3533b2f6-0e9b-4823-b178-86fb0e53530c started with 5 participants
+2026-01-15 13:24:22,113 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 3533b2f6-0e9b-4823-b178-86fb0e53530c
+2026-01-15 13:24:22,164 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 3533b2f6-0e9b-4823-b178-86fb0e53530c
+2026-01-15 13:24:22,214 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 3533b2f6-0e9b-4823-b178-86fb0e53530c
+2026-01-15 13:24:22,240 - shared.protocols.transactions - INFO - Transaction 3533b2f6-0e9b-4823-b178-86fb0e53530c committed in 0.127s
+2026-01-15 13:24:22,240 - shared.protocols.transactions - INFO - Transaction dc8e7a89-3e03-4394-b635-fe4188cff55b started with 5 participants
+2026-01-15 13:24:22,240 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction dc8e7a89-3e03-4394-b635-fe4188cff55b
+2026-01-15 13:24:22,291 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction dc8e7a89-3e03-4394-b635-fe4188cff55b
+2026-01-15 13:24:22,316 - shared.protocols.transactions - INFO - Transaction dc8e7a89-3e03-4394-b635-fe4188cff55b committed in 0.076s
+2026-01-15 13:24:22,316 - shared.protocols.transactions - INFO - Transaction 89845751-58b5-4f37-b33e-d8c278997ba7 started with 5 participants
+2026-01-15 13:24:22,316 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 89845751-58b5-4f37-b33e-d8c278997ba7
+2026-01-15 13:24:22,367 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 89845751-58b5-4f37-b33e-d8c278997ba7
+2026-01-15 13:24:22,417 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 89845751-58b5-4f37-b33e-d8c278997ba7
+2026-01-15 13:24:22,443 - shared.protocols.transactions - INFO - Transaction 89845751-58b5-4f37-b33e-d8c278997ba7 committed in 0.127s
+2026-01-15 13:24:22,444 - shared.protocols.transactions - INFO - Transaction 3d2daa45-1e1f-4b8a-8499-d4c1da24175d started with 5 participants
+2026-01-15 13:24:22,444 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 3d2daa45-1e1f-4b8a-8499-d4c1da24175d
+2026-01-15 13:24:22,495 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 3d2daa45-1e1f-4b8a-8499-d4c1da24175d
+2026-01-15 13:24:22,520 - shared.protocols.transactions - INFO - Transaction 3d2daa45-1e1f-4b8a-8499-d4c1da24175d committed in 0.077s
+2026-01-15 13:24:22,521 - shared.protocols.transactions - INFO - Transaction 2016c46a-d853-401d-aeb4-8867aab440c2 started with 5 participants
+2026-01-15 13:24:22,521 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 2016c46a-d853-401d-aeb4-8867aab440c2
+2026-01-15 13:24:22,571 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 2016c46a-d853-401d-aeb4-8867aab440c2
+2026-01-15 13:24:22,622 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 2016c46a-d853-401d-aeb4-8867aab440c2
+2026-01-15 13:24:22,648 - shared.protocols.transactions - INFO - Transaction 2016c46a-d853-401d-aeb4-8867aab440c2 committed in 0.127s
+2026-01-15 13:24:22,649 - shared.protocols.transactions - INFO - Transaction 03de3d70-fcfb-40ef-a5f6-d613e3b9b9f4 started with 5 participants
+2026-01-15 13:24:22,649 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 03de3d70-fcfb-40ef-a5f6-d613e3b9b9f4
+2026-01-15 13:24:22,699 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 03de3d70-fcfb-40ef-a5f6-d613e3b9b9f4
+2026-01-15 13:24:22,725 - shared.protocols.transactions - INFO - Transaction 03de3d70-fcfb-40ef-a5f6-d613e3b9b9f4 committed in 0.076s
+2026-01-15 13:24:22,725 - shared.protocols.transactions - INFO - Transaction 48aedc7d-a22b-4eb9-b040-e5f044917189 started with 5 participants
+2026-01-15 13:24:22,725 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 48aedc7d-a22b-4eb9-b040-e5f044917189
+2026-01-15 13:24:22,776 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 48aedc7d-a22b-4eb9-b040-e5f044917189
+2026-01-15 13:24:22,826 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 48aedc7d-a22b-4eb9-b040-e5f044917189
+2026-01-15 13:24:22,852 - shared.protocols.transactions - INFO - Transaction 48aedc7d-a22b-4eb9-b040-e5f044917189 committed in 0.127s
+2026-01-15 13:24:22,852 - shared.protocols.transactions - INFO - Transaction 2e9985b2-6946-4b31-84ad-b6cc0775dd55 started with 5 participants
+2026-01-15 13:24:22,853 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 2e9985b2-6946-4b31-84ad-b6cc0775dd55
+2026-01-15 13:24:22,903 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 2e9985b2-6946-4b31-84ad-b6cc0775dd55
+2026-01-15 13:24:22,929 - shared.protocols.transactions - INFO - Transaction 2e9985b2-6946-4b31-84ad-b6cc0775dd55 committed in 0.077s
+2026-01-15 13:24:22,929 - shared.protocols.transactions - INFO - Transaction 9e8037ff-5485-410f-9552-cef3d6e5dac7 started with 5 participants
+2026-01-15 13:24:22,930 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 9e8037ff-5485-410f-9552-cef3d6e5dac7
+2026-01-15 13:24:22,980 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 9e8037ff-5485-410f-9552-cef3d6e5dac7
+2026-01-15 13:24:23,031 - shared.protocols.transactions - WARNING - Transaction 9e8037ff-5485-410f-9552-cef3d6e5dac7 aborting in phase 2
+2026-01-15 13:24:23,057 - shared.protocols.transactions - INFO - Transaction 8e610fcd-2e81-4909-a0ee-08c3760291be started with 5 participants
+2026-01-15 13:24:23,057 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 8e610fcd-2e81-4909-a0ee-08c3760291be
+2026-01-15 13:24:23,108 - shared.protocols.transactions - WARNING - Transaction 8e610fcd-2e81-4909-a0ee-08c3760291be aborting
+2026-01-15 13:24:23,133 - shared.protocols.transactions - INFO - Transaction dd1f3a51-bfa4-4340-821f-e6bf5d01b28b started with 5 participants
+2026-01-15 13:24:23,133 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction dd1f3a51-bfa4-4340-821f-e6bf5d01b28b
+2026-01-15 13:24:23,184 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction dd1f3a51-bfa4-4340-821f-e6bf5d01b28b
+2026-01-15 13:24:23,235 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction dd1f3a51-bfa4-4340-821f-e6bf5d01b28b
+2026-01-15 13:24:23,260 - shared.protocols.transactions - INFO - Transaction dd1f3a51-bfa4-4340-821f-e6bf5d01b28b committed in 0.127s
+2026-01-15 13:24:23,260 - shared.protocols.transactions - INFO - Transaction 7480fc0c-29d0-4a37-85ba-f6aa67afb7e9 started with 5 participants
+2026-01-15 13:24:23,260 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 7480fc0c-29d0-4a37-85ba-f6aa67afb7e9
+2026-01-15 13:24:23,311 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 7480fc0c-29d0-4a37-85ba-f6aa67afb7e9
+2026-01-15 13:24:23,336 - shared.protocols.transactions - INFO - Transaction 7480fc0c-29d0-4a37-85ba-f6aa67afb7e9 committed in 0.076s
+2026-01-15 13:24:23,337 - shared.protocols.transactions - INFO - Transaction 9f104d67-591a-49aa-a31f-2c8fcd4abdd3 started with 5 participants
+2026-01-15 13:24:23,337 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 9f104d67-591a-49aa-a31f-2c8fcd4abdd3
+2026-01-15 13:24:23,387 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 9f104d67-591a-49aa-a31f-2c8fcd4abdd3
+2026-01-15 13:24:23,438 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 9f104d67-591a-49aa-a31f-2c8fcd4abdd3
+2026-01-15 13:24:23,464 - shared.protocols.transactions - INFO - Transaction 9f104d67-591a-49aa-a31f-2c8fcd4abdd3 committed in 0.127s
+2026-01-15 13:24:23,464 - shared.protocols.transactions - INFO - Transaction 4855907d-985a-4e6b-b872-fcd00e0610ff started with 5 participants
+2026-01-15 13:24:23,464 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction 4855907d-985a-4e6b-b872-fcd00e0610ff
+2026-01-15 13:24:23,515 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction 4855907d-985a-4e6b-b872-fcd00e0610ff
+2026-01-15 13:24:23,540 - shared.protocols.transactions - INFO - Transaction 4855907d-985a-4e6b-b872-fcd00e0610ff committed in 0.076s
+2026-01-15 13:24:23,540 - shared.protocols.transactions - INFO - Transaction 174230df-ecaa-4391-b475-e13a251ac4db started with 5 participants
+2026-01-15 13:24:23,541 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction 174230df-ecaa-4391-b475-e13a251ac4db
+2026-01-15 13:24:23,591 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction 174230df-ecaa-4391-b475-e13a251ac4db
+2026-01-15 13:24:23,642 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction 174230df-ecaa-4391-b475-e13a251ac4db
+2026-01-15 13:24:23,668 - shared.protocols.transactions - INFO - Transaction 174230df-ecaa-4391-b475-e13a251ac4db committed in 0.127s
+2026-01-15 13:24:23,668 - shared.protocols.transactions - INFO - Transaction e90157a8-508f-40a1-972b-0b9543bb4cbb started with 5 participants
+2026-01-15 13:24:23,668 - shared.protocols.transactions - INFO - 2PC Phase 1 (PREPARE) for transaction e90157a8-508f-40a1-972b-0b9543bb4cbb
+2026-01-15 13:24:23,719 - shared.protocols.transactions - INFO - 2PC Phase 2 (COMMIT) for transaction e90157a8-508f-40a1-972b-0b9543bb4cbb
+2026-01-15 13:24:23,745 - shared.protocols.transactions - INFO - Transaction e90157a8-508f-40a1-972b-0b9543bb4cbb committed in 0.076s
+2026-01-15 13:24:23,745 - shared.protocols.transactions - INFO - Transaction d433445f-7b35-42af-8454-7ab202610a77 started with 5 participants
+2026-01-15 13:24:23,745 - shared.protocols.transactions - INFO - 3PC Phase 1 (CAN-COMMIT) for transaction d433445f-7b35-42af-8454-7ab202610a77
+2026-01-15 13:24:23,795 - shared.protocols.transactions - INFO - 3PC Phase 2 (PRE-COMMIT) for transaction d433445f-7b35-42af-8454-7ab202610a77
+2026-01-15 13:24:23,846 - shared.protocols.transactions - INFO - 3PC Phase 3 (DO-COMMIT) for transaction d433445f-7b35-42af-8454-7ab202610a77
+2026-01-15 13:24:23,872 - shared.protocols.transactions - INFO - Transaction d433445f-7b35-42af-8454-7ab202610a77 committed in 0.127s
+2026-01-15 13:24:23,872 - __main__ - INFO - Transaction test completed: {'total_transactions': 100, 'committed': 80, 'aborted': 20, 'commit_rate': 80.0, 'average_latency_ms': 101.7886757850647, 'active_transactions': 100}
+2026-01-15 13:24:23,872 - __main__ - INFO - 
+==================================================
+2026-01-15 13:24:23,873 - __main__ - INFO - RUNNING REPLICATION TEST
+2026-01-15 13:24:23,873 - __main__ - INFO - ==================================================
+2026-01-15 13:24:23,873 - __main__ - INFO - Running replication tests...
+2026-01-15 13:24:23,873 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-0
+2026-01-15 13:24:23,877 - shared.protocols.fault_tolerance - INFO - Write to data-0: 3/3 successful
+2026-01-15 13:24:23,877 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-1
+2026-01-15 13:24:23,880 - shared.protocols.fault_tolerance - INFO - Write to data-1: 3/2 successful
+2026-01-15 13:24:23,881 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-2
+2026-01-15 13:24:23,884 - shared.protocols.fault_tolerance - INFO - Write to data-2: 3/1 successful
+2026-01-15 13:24:23,884 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-3
+2026-01-15 13:24:23,887 - shared.protocols.fault_tolerance - INFO - Write to data-3: 3/3 successful
+2026-01-15 13:24:23,888 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-4
+2026-01-15 13:24:23,891 - shared.protocols.fault_tolerance - INFO - Write to data-4: 3/2 successful
+2026-01-15 13:24:23,892 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-5
+2026-01-15 13:24:23,896 - shared.protocols.fault_tolerance - INFO - Write to data-5: 3/1 successful
+2026-01-15 13:24:23,896 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-6
+2026-01-15 13:24:23,900 - shared.protocols.fault_tolerance - INFO - Write to data-6: 3/3 successful
+2026-01-15 13:24:23,900 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-7
+2026-01-15 13:24:23,903 - shared.protocols.fault_tolerance - INFO - Write to data-7: 3/2 successful
+2026-01-15 13:24:23,904 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-8
+2026-01-15 13:24:23,907 - shared.protocols.fault_tolerance - INFO - Write to data-8: 3/1 successful
+2026-01-15 13:24:23,907 - shared.protocols.fault_tolerance - INFO - Created 3 replicas for data-9
+2026-01-15 13:24:23,911 - shared.protocols.fault_tolerance - INFO - Write to data-9: 2/3 successful
+2026-01-15 13:24:23,911 - __main__ - INFO - Replication test completed: {'total_data_keys': 10, 'total_replicas': 30, 'active_replicas': 30, 'failed_replicas': 0, 'replication_factor': 3, 'availability_percent': 100.0}
+2026-01-15 13:24:23,911 - __main__ - INFO - 
+==================================================
+2026-01-15 13:24:23,911 - __main__ - INFO - SIMULATING FAILURES
+2026-01-15 13:24:23,911 - __main__ - INFO - ==================================================
+2026-01-15 13:24:23,912 - __main__ - INFO - Simulating node failures...
+2026-01-15 13:24:23,912 - __main__ - INFO - Simulating failure of edge-0
+2026-01-15 13:24:23,912 - shared.protocols.fault_tolerance - WARNING - Handling failure of node edge-0
+2026-01-15 13:24:23,912 - __main__ - INFO - After failure handling: {'total_data_keys': 10, 'total_replicas': 30, 'active_replicas': 30, 'failed_replicas': 0, 'replication_factor': 3, 'availability_percent': 100.0}
+2026-01-15 13:24:23,912 - __main__ - INFO - 
+==================================================
+2026-01-15 13:24:23,912 - __main__ - INFO - COLLECTING FINAL STATISTICS
+2026-01-15 13:24:23,912 - __main__ - INFO - ==================================================
+2026-01-15 13:24:23,913 - __main__ - INFO - Results saved to results/system_statistics.json
+2026-01-15 13:24:23,914 - __main__ - INFO - 
+System running... Press Ctrl+C to stop
+2026-01-15 13:24:53,914 - __main__ - INFO - 
+Shutting down system...
+2026-01-15 13:24:53,914 - __main__ - INFO - Stopping distributed system...
+2026-01-15 13:24:56,840 - edge.services.edge_node - INFO - Edge node edge-0 stopped
+2026-01-15 13:24:56,844 - edge.services.edge_node - INFO - Edge node edge-1 stopped
+2026-01-15 13:25:02,843 - edge.services.edge_node - INFO - Edge node edge-2 stopped
+2026-01-15 13:25:08,835 - core.services.core_node - INFO - Core node core-0 stopped
+2026-01-15 13:25:08,853 - core.services.core_node - INFO - Core node core-1 stopped
+2026-01-15 13:25:08,858 - cloud.services.cloud_node - INFO - Cloud node cloud-0 stopped
+2026-01-15 13:25:08,868 - cloud.services.cloud_node - INFO - Cloud node cloud-1 stopped
+2026-01-15 13:25:09,341 - shared.protocols.consensus - INFO - Node node-0 stopped
+2026-01-15 13:25:09,841 - shared.protocols.consensus - INFO - Node node-1 stopped
+2026-01-15 13:25:10,341 - shared.protocols.consensus - INFO - Node node-2 stopped
+2026-01-15 13:25:10,406 - shared.protocols.consensus - INFO - Node node-3 stopped
+2026-01-15 13:25:10,841 - shared.protocols.consensus - INFO - Node node-4 stopped
+2026-01-15 13:25:10,841 - shared.protocols.consensus - INFO - Cluster stopped
+2026-01-15 13:25:10,841 - __main__ - INFO - Distributed system stopped
+2026-01-15 13:25:10,841 - __main__ - INFO - Shutdown complete

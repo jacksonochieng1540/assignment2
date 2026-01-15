@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  telecom:
+    build: .
+    container_name: telecom-system
+    volumes:
+      - ./logs:/app/logs
+      - ./results:/app/results

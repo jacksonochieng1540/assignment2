@@ -1,0 +1,4 @@
+Node,Node Type,Duration (s),Total Requests,Throughput (req/s)
+edge-perf,EdgeNode,3.04,396,130.47
+core-perf,CoreNode,3.03,245,80.81
+cloud-perf,CloudNode,3.12,122,39.09

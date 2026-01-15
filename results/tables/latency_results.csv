@@ -1,0 +1,4 @@
+Node,Node Type,Min (ms),Max (ms),Avg (ms),Median (ms),P95 (ms)
+edge-perf,EdgeNode,10.42,49.81,31.59,32.52,47.00
+core-perf,CoreNode,20.12,78.65,46.80,46.43,76.47
+cloud-perf,CloudNode,102.01,490.90,318.00,318.51,461.90
